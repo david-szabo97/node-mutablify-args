@@ -21,15 +21,18 @@ Mutators are functions which changes the value of the arguments. Arguments are p
 
 Mutator functions are run in sequence.
 
-`mutablifyArgs(fn, strict)`
+```javascript
+mutablifyArgs(fn, strict)
+```
 
-**fn** this function will be wrapped
-
-**strict** you can use this argument to disable strict mode (which is enabled by default). In strict mode, the wrapper function will validate the passed mutator functions. If the mutator is not a function, it will throw an error in strict mode. In non-strict mode it continues on.
+* **fn** this function will be wrapped
+* **strict** you can use this argument to disable strict mode (which is enabled by default). In strict mode, the wrapper function will validate the passed mutator functions. If the mutator is not a function, it will throw an error in strict mode. In non-strict mode it continues on.
 
 **Mutator function example:**
 
-`(args) => args.map(arg => arg + 5)`
+```javascript
+(args) => args.map(arg => arg + 5)
+```
 
 This mutator function will add **5** to all arguments.
 
