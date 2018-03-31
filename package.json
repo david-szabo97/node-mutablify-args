@@ -1,6 +1,6 @@
 {
   "name": "mutablify-args",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple function wrapper to allow your arguments to be modified via functions",
   "main": "index.js",
   "scripts": {
