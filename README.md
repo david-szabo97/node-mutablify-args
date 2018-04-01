@@ -1,6 +1,8 @@
 Mutablify Arguments
 =========
 
+[![Build Status](https://travis-ci.org/david-szabo97/node-mutablify-args.svg?branch=master)](https://travis-ci.org/david-szabo97/node-mutablify-args)
+
 A simple function wrapper to allow your arguments to be modified via functions.
 
 ## Installation
