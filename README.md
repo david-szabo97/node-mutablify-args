@@ -1,7 +1,7 @@
 Mutablify Arguments
 =========
 
-[![Build Status](https://travis-ci.org/david-szabo97/node-mutablify-args.svg?branch=master)](https://travis-ci.org/david-szabo97/node-mutablify-args)
+[![Build Status](https://travis-ci.org/david-szabo97/node-mutablify-args.svg?branch=master)](https://travis-ci.org/david-szabo97/node-mutablify-args) [![Greenkeeper badge](https://badges.greenkeeper.io/david-szabo97/node-mutablify-args.svg)](https://greenkeeper.io/)
 
 A simple function wrapper to allow your arguments to be modified via functions.
 
